@@ -26,7 +26,7 @@ def save_best_model(current_best_path, latest_dir, archive_dir):
 
 
 if __name__ == "__main__":
-    current_best_path = 'path/to/current/best.pt'  # Update with the correct path
+    current_best_path = 'output/experiment_9/weights/best.pt'  # Update with the correct path
     latest_dir = 'models/checkpoints/latest'
     archive_dir = 'models/checkpoints/archive'
     save_best_model(current_best_path, latest_dir, archive_dir)
