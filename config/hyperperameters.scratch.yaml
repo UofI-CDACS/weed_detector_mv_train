@@ -1,0 +1,8 @@
+# Augmentation hyperparameters
+# fliplr: 0.5  # Probability of horizontal flip
+# flipud: 0.0  # Probability of vertical flip
+# mosaic: 1.0  # Mosaic augmentation probability
+# mixup: 0.0  # Mixup augmentation probability
+# copy_paste: 0.0  # Segment copy-paste augmentation probability
+# blur: 0.0  # Gaussian blur augmentation probability
+# Other hyperparameters...

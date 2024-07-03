@@ -1,0 +1,9 @@
+batch: 16
+hyp: config/hyperperameters.scratch.yaml
+augment: false
+multi_scale: true
+epochs: 100
+early_stopping_patience: 10
+data: #config/data.yaml
+imgsz: 640
+# Any other default parameters you want

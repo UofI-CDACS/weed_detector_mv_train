@@ -1,0 +1,5 @@
+train: ../data/train/images
+val: ../data/val/images
+
+nc: 1  # Number of classes (assuming you have one class: weed)
+names: ['weed']  # List of class names
