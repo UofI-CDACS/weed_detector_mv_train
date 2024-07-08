@@ -14,7 +14,7 @@ early_stopping_patience = 10
 augment = False
 scale = 0.5
 exp_name = 'experiment_10'
-model_path = 'models/yolo/yolov8n.pt'
+model_path = 'output/experiment_8/weights/best.pt'
 
 
 def main():
@@ -26,11 +26,12 @@ def main():
     
     # build data.yaml path
     data_path = os.path.join(os.getcwd(), datafile)
+    full_model_path = os.path.join(os.getcwd(), model_path)
 
     # Call the train function to train the model
     train(
         data_path=data_path,
-        model_path='./output/experiment_8/weights/best.pt',
+        model_path=full_model_path,
         # iou=1.0,
     )
 
